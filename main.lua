@@ -3,7 +3,7 @@
 -- main.lua
 --
 -----------------------------------------------------------------------------------------
-
+--
 -- hide the status bar
 display.setStatusBar( display.HiddenStatusBar )
 
