@@ -58,11 +58,7 @@ timerLabel:setTextColor(255,29,0)
 -- forward declarations and other locals
 local screenW, screenH, halfW = display.contentWidth, display.contentHeight, display.contentWidth*0.5
 title_button = display.newImage( IMAGE_DIR.."title_button.png",winWidth*0.6,winHeight*0.6)
-     title_button.isVisible = true
-      background.isVisible = true
-      grass.isVisible = true
-      timerLabel.isVisible = true
-      tfScoreDisplay = true
+      
       tobif = 0
       CountDownTimer = time_limit
 	-- Called when the scene's view does not exist.
@@ -138,6 +134,11 @@ fruits.setComb()
   --回転力を加える
   --square:applyTorque(3600)
   -- all display objects must be inserted into group
+  title_button.isVisible = false
+      background.isVisible = true
+      grass.isVisible = true
+      timerLabel.isVisible = true
+      tfScoreDisplay = true
 	sceneGroup:insert( background )
 	sceneGroup:insert( grass)
   --ボール,四角をシーンに追加
