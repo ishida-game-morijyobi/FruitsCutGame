@@ -143,7 +143,7 @@ fruits.setComb()
 	sceneGroup:insert( grass)
   --ボール,四角をシーンに追加
   --sceneGroup:insert(ball)
-  --sceneGroup:insert(square)
+  --sceneGroup:insert(square)--
 end
 
 
