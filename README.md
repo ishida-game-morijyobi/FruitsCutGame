@@ -9,4 +9,5 @@ Github bushで初期化<br>
 衝突の確認<br>
 
 ## 反省点・改善点
-今回、Git BashのみでやったのでSourceTreeやGithub for desktopなどほかのツールを使って見たいと思いました。
+メンバーのみんなが素早く作業をしてくれてスムーズに進んだ。
+Git BashのみでやったのでSourceTreeやGithub for desktopなどほかのツールを使って見たいと思いました。
