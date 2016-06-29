@@ -7,4 +7,5 @@ luaの作成<br>
 
 # 衝突確認
 # FruitsCutGame
+# 出来たこと
 Git Bashの使い方が少しわかってきた<br>
